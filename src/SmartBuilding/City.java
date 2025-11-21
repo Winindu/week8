@@ -1,13 +1,13 @@
-package SmartBUilliding;
+package SmartBuilding;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class city {
+public class City {
     private String name;
     private List<smartBuilding> buildings;
 
-    public city(String name){
+    public City(String name){
         this.name=name;
         this.buildings= new ArrayList<>();
     }

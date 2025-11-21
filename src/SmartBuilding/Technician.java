@@ -1,6 +1,4 @@
-package SmartBUilliding;
-
-import Composition.MealItem;
+package SmartBuilding;
 
 import java.util.ArrayList;
 import java.util.List;

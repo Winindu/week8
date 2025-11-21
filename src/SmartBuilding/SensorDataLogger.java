@@ -1,4 +1,4 @@
-package SmartBUilliding;
+package SmartBuilding;
 
 public class SensorDataLogger {
 }
