@@ -26,4 +26,6 @@ public class Sensor {
     }
 
 
+    public synchronized void updateReading(double reading) throws InvalidSensorDataException {
+    }
 }
