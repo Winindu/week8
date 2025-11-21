@@ -13,6 +13,12 @@ public class Sensor {
         lastReading = 0;
     }
 
+    public String getId(){return id;}
+    public String getType(){return type;}
+    public double getLastReading(){return lastReading;}
+//    public synchronized void setLastReading(double newLastReading)
+
+
     private Technician[] wheels = new Technician[2];
 
     protected Sensor(String name) {
